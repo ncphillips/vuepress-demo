@@ -35,9 +35,12 @@ VuePress supports 4 methods of referencing media in markdown files:
 3. Relative paths from the source repo
 4. Alias paths
 
-Currently, Forestry only supports the first two options.
+Currently, Forestry only supports the **first two** options.
 
-Forestry only let's you manage media in a single directory. By default, this will by the `.vuepress/public` directory.
+Forestry only let's you manage media in a single directory. These are the default settings:
+
+* **Uploads Directory:** `.vuepress/public/uploads`
+* **Public Path:** `/uploads`
 
 ### Supported Media Storage Providers
 
