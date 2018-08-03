@@ -1,4 +1,5 @@
 ---
+
 ---
 # VuePress + Forestry = ❤️
 
@@ -8,7 +9,7 @@
 
 Markdown and HTML files can be edited with Forestry.
 
-Extensions: 
+Extensions:
 
 * `md`
 * `.markdown`
@@ -29,12 +30,12 @@ Currently Forestry only supports YAML and JSON.
 
 VuePress supports 4 methods of referencing media in markdown files:
 
-1. Absolute external URLs 
+1. Absolute external URLs
 2. Absolute internal URLs – The path on the built site
 3. Relative paths from the source repo
 4. Alias paths
 
-Currently, Forestry only supports the first two options. 
+Currently, Forestry only supports the first two options.
 
 Forestry only let's you manage media in a single directory. By default, this will by the `.vuepress/public` directory.
 
