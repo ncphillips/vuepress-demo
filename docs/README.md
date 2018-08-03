@@ -1,6 +1,5 @@
-+++
-
-+++
+---
+---
 # VuePress + Forestry = ❤️
 
 ## Editing Files
