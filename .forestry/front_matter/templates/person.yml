@@ -12,5 +12,3 @@ fields:
 - type: file
   name: profile
   label: Profile
-pages:
-- docs/team/billy-the-kid.md
