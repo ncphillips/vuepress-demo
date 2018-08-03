@@ -1,0 +1,14 @@
+---
+label: Person
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: given_name
+  label: Given Name
+- type: text
+  name: family_name
+  label: Family Name
+- type: file
+  name: profile
+  label: Profile
