@@ -5,15 +5,17 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: docs/team
-  label: Team
-  create: all
-  match: "*"
-- type: directory
   path: docs
   label: Pages
   create: all
   match: "*"
+- type: directory
+  path: docs/team
+  label: Team
+  create: all
+  match: "*"
+  templates:
+  - person
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
