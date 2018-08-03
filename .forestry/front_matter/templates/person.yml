@@ -12,3 +12,5 @@ fields:
 - type: file
   name: profile
   label: Profile
+pages:
+- docs/team/boy-george.md
