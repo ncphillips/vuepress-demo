@@ -7,4 +7,5 @@ fields:
   name: title
   label: Title
 pages:
+- docs/license.md
 - docs/changelog.md
