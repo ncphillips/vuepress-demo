@@ -23,3 +23,17 @@ fields:
   config:
     min: '1'
     max: '3'
+- type: field_group
+  name: test
+  label: Test
+  fields:
+  - type: text
+    name: toot
+    label: Toot
+    config:
+      required: true
+  - type: text
+    config:
+      required: true
+    label: Poop
+    name: Poop
