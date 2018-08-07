@@ -13,6 +13,8 @@ fields:
   - type: text
     name: title
     label: Title
+    config:
+      required: true
   - type: text
     name: url
     label: URL
