@@ -35,3 +35,9 @@ fields:
       max: '3'
       step: '1'
       required: true
+- type: blocks
+  name: animals
+  label: Animals
+  template_types:
+  - dog
+  - cat
