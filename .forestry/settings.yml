@@ -4,11 +4,15 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Toot Toot
 - type: directory
   path: docs
   label: Pages
   create: all
   match: "*"
+- type: heading
+  label: Internal
 - type: directory
   path: docs/team
   label: Team
@@ -16,10 +20,7 @@ sections:
   match: "*"
   templates:
   - person
-- type: heading
-  label: Toot Toot
-- type: heading
-  label: Internal
+
 upload_dir: docs/.vuepress/public/uploads
 public_path: "/uploads"
 front_matter_path: ''
