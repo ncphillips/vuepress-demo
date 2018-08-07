@@ -18,3 +18,5 @@ fields:
   - type: text
     name: url
     label: URL
+    config:
+      required: true
