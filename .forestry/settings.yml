@@ -4,14 +4,15 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  label: README
-  path: README.md
 - type: directory
   path: docs
   label: Pages
   create: all
   match: "*"
+- type: document
+  path: README.md
+  label: README
+  create: all
 - type: heading
   label: Internal
 - type: heading
