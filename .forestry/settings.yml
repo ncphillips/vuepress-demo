@@ -4,8 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: heading
-  label: Example
 - type: directory
   path: docs
   label: Pages
@@ -13,6 +11,8 @@ sections:
   match: "*"
 - type: heading
   label: Internal
+- type: heading
+  label: Example
 - type: directory
   path: docs/team
   label: Team
