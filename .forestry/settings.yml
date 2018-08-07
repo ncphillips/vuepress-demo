@@ -9,10 +9,6 @@ sections:
   label: Pages
   create: all
   match: "*"
-- type: heading
-  path: ''
-  label: Internal
-  create: all
 - type: directory
   path: docs/team
   label: Team
@@ -21,10 +17,9 @@ sections:
   templates:
   - person
 - type: heading
-  path: ''
   label: Toot Toot
-  create: all
-  match: "**/*"
+- type: heading
+  label: Internal
 upload_dir: docs/.vuepress/public/uploads
 public_path: "/uploads"
 front_matter_path: ''
