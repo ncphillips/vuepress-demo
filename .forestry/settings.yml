@@ -9,6 +9,8 @@ sections:
   label: Pages
   create: all
   match: "*"
+- type: heading
+  label: Internal
 - type: directory
   path: docs/team
   label: Team
