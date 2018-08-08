@@ -5,24 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: README.md
+  path: docs/README.md
   label: README
-- type: directory
-  path: docs
-  label: Pages
-  create: all
-  match: "*"
-- type: heading
-  label: Internal
-- type: heading
-  label: Example
-- type: directory
-  path: docs/team
-  label: Team
-  create: all
-  match: "*"
-  templates:
-  - person
 upload_dir: docs/.vuepress/public/uploads
 public_path: "/uploads"
 front_matter_path: ''
