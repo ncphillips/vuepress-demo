@@ -3,7 +3,7 @@
 ---
 # VuePress + Forestry = ❤️
 
-## Editing Files
+## Editing Files is Fun
 
 ### File Formats
 
