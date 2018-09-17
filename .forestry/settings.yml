@@ -22,7 +22,7 @@ front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
-  preview_command: vuepress build docs
-  publish_command: vuepress build docs
+  preview_command: yarn build
+  publish_command: yarn build
   output_directory: docs/.vuepress/dist
 version: '0.48'
