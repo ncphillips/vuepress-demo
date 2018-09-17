@@ -25,3 +25,4 @@ build:
   preview_command: vuepress build docs
   publish_command: vuepress build docs
   output_directory: docs/.vuepress/dist
+version: '0.48'
