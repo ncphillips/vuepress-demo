@@ -6,7 +6,7 @@ public_img: /uploads/headshot.jpg
 
 # VuePress + ${page.cms} = ❤️
 
-## Editing Files
+## Editing Files is Fun
 
 ### File Formats
 
@@ -50,17 +50,18 @@ Forestry only let's you manage media in a single directory. These are the defaul
 - Git
 - Cloudinary
 
+### Previews
+
+...coming soon ;)
+
 ## What's Missing?
 
 ### Forestry Features
 
 VuePress support is still very early with Forestry. You'll notice that a few features that are available to Hugo and Jekyll sites are missing for VuePress. Here's a shortlist of those features:
 
-- Data files
-- Menus
-- Previews
-- Build & Deploy
-- Tightly integrated Published/Draft statuses
-  - Note: This is because VuePress does not have drafts yet. <img :src="$page.frontmatter.img" /> <img :src="$page.frontmatter.public_img" />
-
-![](./terry.jpg)
+* Data files
+* Menus
+* Build & Deploy
+* Tightly integrated Published/Draft statuses
+  * Note: This is because VuePress does not have drafts yet.
