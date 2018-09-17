@@ -1,0 +1,25 @@
+{
+  "name": "vuepress-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncphillips/vuepress-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ncphillips/vuepress-demo/issues"
+  },
+  "homepage": "https://github.com/ncphillips/vuepress-demo#readme",
+  "dependencies": {
+    "vuepress": "^0.14.4"
+  }
+}

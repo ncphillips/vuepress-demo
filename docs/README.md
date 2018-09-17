@@ -1,7 +1,10 @@
 ---
-
+cms: Forestry
+img: ./terry.jpg
+public_img: /uploads/headshot.jpg
 ---
-# VuePress + Forestry = ❤️
+
+# VuePress + ${page.cms} = ❤️
 
 ## Editing Files
 
@@ -11,18 +14,18 @@ Markdown and HTML files can be edited with Forestry.
 
 Extensions:
 
-* `md`
-* `.markdown`
-* `.html`
-* `.htm`
+- `md`
+- `.markdown`
+- `.html`
+- `.htm`
 
 ### Front Matter
 
 VuePress supports 3 front matter formats:
 
-* YAML
-* JSON
-* TOML
+- YAML
+- JSON
+- TOML
 
 Currently Forestry only supports YAML and JSON.
 
@@ -30,22 +33,22 @@ Currently Forestry only supports YAML and JSON.
 
 VuePress supports 4 methods of referencing media in markdown files:
 
-1. Absolute external URLs
-2. Absolute internal URLs – The path on the built site
-3. Relative paths from the source repo
-4. Alias paths
+1.  Absolute external URLs
+2.  Absolute internal URLs – The path on the built site
+3.  Relative paths from the source repo
+4.  Alias paths
 
 Currently, Forestry only supports the **first two** options.
 
 Forestry only let's you manage media in a single directory. These are the default settings:
 
-* **Uploads Directory:** `.vuepress/public/uploads`
-* **Public Path:** `/uploads`
+- **Uploads Directory:** `.vuepress/public/uploads`
+- **Public Path:** `/uploads`
 
 ### Supported Media Storage Providers
 
-* Git
-* Cloudinary
+- Git
+- Cloudinary
 
 ## What's Missing?
 
@@ -53,9 +56,11 @@ Forestry only let's you manage media in a single directory. These are the defaul
 
 VuePress support is still very early with Forestry. You'll notice that a few features that are available to Hugo and Jekyll sites are missing for VuePress. Here's a shortlist of those features:
 
-* Data files
-* Menus
-* Previews
-* Build & Deploy
-* Tightly integrated Published/Draft statuses
-  * Note: This is because VuePress does not have drafts yet.
+- Data files
+- Menus
+- Previews
+- Build & Deploy
+- Tightly integrated Published/Draft statuses
+  - Note: This is because VuePress does not have drafts yet. <img :src="$page.frontmatter.img" /> <img :src="$page.frontmatter.public_img" />
+
+![](./terry.jpg)
