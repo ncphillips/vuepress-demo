@@ -47,6 +47,10 @@ Forestry only let's you manage media in a single directory. These are the defaul
 * Git
 * Cloudinary
 
+### Previews
+
+...coming soon ;)
+
 ## What's Missing?
 
 ### Forestry Features
@@ -55,7 +59,6 @@ VuePress support is still very early with Forestry. You'll notice that a few fea
 
 * Data files
 * Menus
-* Previews
 * Build & Deploy
 * Tightly integrated Published/Draft statuses
   * Note: This is because VuePress does not have drafts yet.
