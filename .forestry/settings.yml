@@ -21,7 +21,9 @@ public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
-build:	
-  preview_command: yarn build	
-  publish_command: yarn build	
+build:
+  preview_command: yarn build
+  publish_command: yarn build
+  preview_env: []
+  publish_env: []
   output_directory: docs/.vuepress/dist
