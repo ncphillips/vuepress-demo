@@ -25,4 +25,3 @@ build:
   preview_command: yarn build
   publish_command: yarn build
   output_directory: docs/.vuepress/dist
-version: '0.48'
