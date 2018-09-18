@@ -24,6 +24,4 @@ file_template: ":filename:"
 build:
   preview_command: yarn build
   publish_command: yarn build
-  preview_env: []
-  publish_env: []
   output_directory: docs/.vuepress/dist
