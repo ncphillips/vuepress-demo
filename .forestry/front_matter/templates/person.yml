@@ -12,5 +12,9 @@ fields:
 - type: file
   name: profile
   label: Profile
+- type: include
+  name: include
+  label: Include
+  template: toot
 pages:
 - docs/team/boy-george.md
