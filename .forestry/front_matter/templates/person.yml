@@ -16,5 +16,10 @@ fields:
   name: include
   label: Include
   template: toot
+- type: blocks
+  name: blocks
+  label: Blocks
+  template_types:
+  - toot
 pages:
 - docs/team/boy-george.md
